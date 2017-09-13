@@ -1,0 +1,27 @@
+.aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: lightblue;
+}
+.profile {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  background-color: pink;
+}
+.profile .img-container {
+  margin-top: 20px;
+  height: 80px;
+  text-align: center;
+}
+.main {
+  position: absolute;
+  left: 200px;
+  right: 0;
+  top: 0;
+  min-height: 500px;
+  background-color: lightgoldenrodyellow;
+}
